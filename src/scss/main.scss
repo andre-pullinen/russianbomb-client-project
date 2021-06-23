@@ -1,0 +1,15 @@
+@import "base/variables";
+
+@import "helpers/height";
+
+@import "components/scrollbar";
+@import "components/sidebar";
+
+.v-application {
+  background-color: var(--v-background-base) !important;
+}
+
+.v-skeleton-loader__image {
+  height: 100% !important;
+  min-height: 200px;
+}
